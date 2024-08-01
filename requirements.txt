@@ -9,3 +9,4 @@ feature-engine
 flask
 waitress
 openpyxl
+psycopg2==2.9.9
