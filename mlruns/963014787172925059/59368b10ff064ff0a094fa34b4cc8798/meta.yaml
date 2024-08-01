@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/59368b10ff064ff0a094fa34b4cc8798/artifacts
+end_time: 1719837792490
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 59368b10ff064ff0a094fa34b4cc8798
+run_name: charming-smelt-960
+run_uuid: 59368b10ff064ff0a094fa34b4cc8798
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719837784770
+status: 3
+tags: []
+user_id: ZiedTriki

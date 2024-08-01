@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1720046184176
+current_stage: None
+description: ''
+last_updated_timestamp: 1720046184176
+name: Challenger_Credit_Card_Approval_Model
+run_id: 03281d3460d843c9b29b54f5a388b729
+run_link: ''
+source: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/03281d3460d843c9b29b54f5a388b729/artifacts/model
+status: READY
+status_message: null
+storage_location: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/03281d3460d843c9b29b54f5a388b729/artifacts/model
+user_id: null
+version: 1

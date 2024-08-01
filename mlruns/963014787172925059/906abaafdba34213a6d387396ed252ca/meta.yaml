@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/906abaafdba34213a6d387396ed252ca/artifacts
+end_time: 1719837837014
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 906abaafdba34213a6d387396ed252ca
+run_name: languid-fly-5
+run_uuid: 906abaafdba34213a6d387396ed252ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719837829985
+status: 3
+tags: []
+user_id: ZiedTriki

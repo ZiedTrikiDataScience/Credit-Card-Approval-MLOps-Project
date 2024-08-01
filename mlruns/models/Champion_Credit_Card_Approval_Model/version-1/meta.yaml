@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1720046154397
+current_stage: None
+description: ''
+last_updated_timestamp: 1720046154397
+name: Champion_Credit_Card_Approval_Model
+run_id: cea202bfa8964234975e8cd70b7a4ecf
+run_link: ''
+source: mlruns\963014787172925059\cea202bfa8964234975e8cd70b7a4ecf\artifacts\model
+status: READY
+status_message: null
+storage_location: mlruns\963014787172925059\cea202bfa8964234975e8cd70b7a4ecf\artifacts\model
+user_id: null
+version: 1

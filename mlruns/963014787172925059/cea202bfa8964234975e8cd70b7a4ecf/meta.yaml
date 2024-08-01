@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/cea202bfa8964234975e8cd70b7a4ecf/artifacts
+end_time: 1719837822508
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: cea202bfa8964234975e8cd70b7a4ecf
+run_name: invincible-croc-325
+run_uuid: cea202bfa8964234975e8cd70b7a4ecf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719837814814
+status: 3
+tags: []
+user_id: ZiedTriki
