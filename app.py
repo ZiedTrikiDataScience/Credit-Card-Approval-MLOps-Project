@@ -13,6 +13,7 @@ from mlflow import MlflowClient
 #model = mlflow.pyfunc.load_model(r"models:/Champion_Credit_Card_Approval_Model/1")
 
 # Docker :
+
 run_id = "963014787172925059/cea202bfa8964234975e8cd70b7a4ecf"
 model = mlflow.pyfunc.load_model(f'./mlruns/{run_id}/artifacts/model')
 
