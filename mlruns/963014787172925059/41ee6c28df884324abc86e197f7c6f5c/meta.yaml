@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/41ee6c28df884324abc86e197f7c6f5c/artifacts
+end_time: 1723750682464
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 41ee6c28df884324abc86e197f7c6f5c
+run_name: rare-ape-82
+run_uuid: 41ee6c28df884324abc86e197f7c6f5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723750680600
+status: 3
+tags: []
+user_id: triki

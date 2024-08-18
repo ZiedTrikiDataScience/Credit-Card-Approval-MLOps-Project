@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/37e6b10d07f64e23bf1bb1a69ea3b4f9/artifacts
+end_time: 1723393938362
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 37e6b10d07f64e23bf1bb1a69ea3b4f9
+run_name: traveling-quail-517
+run_uuid: 37e6b10d07f64e23bf1bb1a69ea3b4f9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723393936439
+status: 3
+tags: []
+user_id: triki

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/26107bb4fa0c488e88aa008bbd430624/artifacts
+end_time: 1723750691718
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 26107bb4fa0c488e88aa008bbd430624
+run_name: resilient-swan-436
+run_uuid: 26107bb4fa0c488e88aa008bbd430624
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723750689810
+status: 3
+tags: []
+user_id: triki

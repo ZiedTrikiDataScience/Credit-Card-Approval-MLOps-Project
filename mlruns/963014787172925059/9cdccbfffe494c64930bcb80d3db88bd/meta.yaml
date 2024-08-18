@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/9cdccbfffe494c64930bcb80d3db88bd/artifacts
+end_time: 1723941121560
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 9cdccbfffe494c64930bcb80d3db88bd
+run_name: gentle-zebra-757
+run_uuid: 9cdccbfffe494c64930bcb80d3db88bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723941121425
+status: 3
+tags: []
+user_id: triki

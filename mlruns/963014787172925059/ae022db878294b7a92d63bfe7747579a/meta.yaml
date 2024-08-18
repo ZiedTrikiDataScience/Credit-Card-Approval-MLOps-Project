@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/ae022db878294b7a92d63bfe7747579a/artifacts
+end_time: 1723076841086
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: ae022db878294b7a92d63bfe7747579a
+run_name: wistful-cow-755
+run_uuid: ae022db878294b7a92d63bfe7747579a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723076839295
+status: 3
+tags: []
+user_id: triki

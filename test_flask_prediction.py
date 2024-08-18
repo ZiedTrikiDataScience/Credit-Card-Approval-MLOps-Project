@@ -1,5 +1,5 @@
-import requests
 import pandas as pd
+import requests
 
 url = 'http://localhost:5001/predict'
 

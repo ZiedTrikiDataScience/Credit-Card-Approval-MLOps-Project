@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/32c8f40772c24e81a1249e5e043057b6/artifacts
+end_time: 1723941363771
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 32c8f40772c24e81a1249e5e043057b6
+run_name: amusing-gull-492
+run_uuid: 32c8f40772c24e81a1249e5e043057b6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723941363720
+status: 3
+tags: []
+user_id: triki

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/88f46810bd8147a5ad2644c63ebac5e1/artifacts
+end_time: 1723076853852
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 88f46810bd8147a5ad2644c63ebac5e1
+run_name: thoughtful-fly-697
+run_uuid: 88f46810bd8147a5ad2644c63ebac5e1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723076852026
+status: 3
+tags: []
+user_id: triki

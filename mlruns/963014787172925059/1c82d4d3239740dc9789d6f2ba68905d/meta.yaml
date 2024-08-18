@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/1c82d4d3239740dc9789d6f2ba68905d/artifacts
+end_time: 1723393934437
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 1c82d4d3239740dc9789d6f2ba68905d
+run_name: grandiose-newt-884
+run_uuid: 1c82d4d3239740dc9789d6f2ba68905d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723393932361
+status: 3
+tags: []
+user_id: triki

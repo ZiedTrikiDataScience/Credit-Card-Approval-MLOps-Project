@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/f0a3f4636e1a45e7a1174e965341d92a/artifacts
+end_time: 1723941525853
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: f0a3f4636e1a45e7a1174e965341d92a
+run_name: nosy-donkey-152
+run_uuid: f0a3f4636e1a45e7a1174e965341d92a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723941523982
+status: 3
+tags: []
+user_id: triki

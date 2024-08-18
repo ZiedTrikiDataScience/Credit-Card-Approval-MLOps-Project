@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/ef225ec863644f2d86310574f8fd277d/artifacts
+end_time: 1723078353729
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: ef225ec863644f2d86310574f8fd277d
+run_name: sneaky-crab-323
+run_uuid: ef225ec863644f2d86310574f8fd277d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723078350625
+status: 3
+tags: []
+user_id: triki

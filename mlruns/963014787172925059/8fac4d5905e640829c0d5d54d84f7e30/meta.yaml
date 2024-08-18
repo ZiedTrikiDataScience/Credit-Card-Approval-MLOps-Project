@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/8fac4d5905e640829c0d5d54d84f7e30/artifacts
+end_time: 1723076839295
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 8fac4d5905e640829c0d5d54d84f7e30
+run_name: welcoming-sheep-204
+run_uuid: 8fac4d5905e640829c0d5d54d84f7e30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723076837405
+status: 3
+tags: []
+user_id: triki

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/d903ac1e113348ea8438e728ff069f84/artifacts
+end_time: 1723750697334
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: d903ac1e113348ea8438e728ff069f84
+run_name: able-ram-541
+run_uuid: d903ac1e113348ea8438e728ff069f84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723750695523
+status: 3
+tags: []
+user_id: triki

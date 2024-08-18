@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/d93329e3143d4fe285f33965e55b0d07/artifacts
+end_time: 1723077187462
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: d93329e3143d4fe285f33965e55b0d07
+run_name: abrasive-cub-383
+run_uuid: d93329e3143d4fe285f33965e55b0d07
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723077185602
+status: 3
+tags: []
+user_id: triki

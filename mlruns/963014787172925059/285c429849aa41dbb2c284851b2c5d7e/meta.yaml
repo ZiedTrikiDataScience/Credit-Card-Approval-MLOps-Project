@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/285c429849aa41dbb2c284851b2c5d7e/artifacts
+end_time: 1723394564120
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 285c429849aa41dbb2c284851b2c5d7e
+run_name: exultant-cod-601
+run_uuid: 285c429849aa41dbb2c284851b2c5d7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723394562290
+status: 3
+tags: []
+user_id: triki

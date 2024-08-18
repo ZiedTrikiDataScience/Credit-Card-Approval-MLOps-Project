@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/3e9d2174b34c4e099565ae63486d104c/artifacts
+end_time: 1723077562191
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 3e9d2174b34c4e099565ae63486d104c
+run_name: redolent-sheep-334
+run_uuid: 3e9d2174b34c4e099565ae63486d104c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723077560392
+status: 3
+tags: []
+user_id: triki

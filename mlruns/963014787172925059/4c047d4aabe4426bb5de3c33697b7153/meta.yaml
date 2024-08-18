@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/4c047d4aabe4426bb5de3c33697b7153/artifacts
+end_time: 1723923538689
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 4c047d4aabe4426bb5de3c33697b7153
+run_name: sneaky-frog-573
+run_uuid: 4c047d4aabe4426bb5de3c33697b7153
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723923538656
+status: 3
+tags: []
+user_id: triki

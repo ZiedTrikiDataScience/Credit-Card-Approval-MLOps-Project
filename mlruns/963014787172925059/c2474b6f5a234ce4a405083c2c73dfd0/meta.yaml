@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/c2474b6f5a234ce4a405083c2c73dfd0/artifacts
+end_time: 1723077183803
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: c2474b6f5a234ce4a405083c2c73dfd0
+run_name: wistful-lynx-292
+run_uuid: c2474b6f5a234ce4a405083c2c73dfd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723077181967
+status: 3
+tags: []
+user_id: triki

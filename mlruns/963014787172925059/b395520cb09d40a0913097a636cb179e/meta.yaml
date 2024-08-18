@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/b395520cb09d40a0913097a636cb179e/artifacts
+end_time: 1723078366792
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: b395520cb09d40a0913097a636cb179e
+run_name: auspicious-crow-710
+run_uuid: b395520cb09d40a0913097a636cb179e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723078364967
+status: 3
+tags: []
+user_id: triki

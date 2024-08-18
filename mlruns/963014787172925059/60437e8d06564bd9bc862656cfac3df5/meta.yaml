@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/60437e8d06564bd9bc862656cfac3df5/artifacts
+end_time: 1723750693594
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 60437e8d06564bd9bc862656cfac3df5
+run_name: agreeable-vole-574
+run_uuid: 60437e8d06564bd9bc862656cfac3df5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723750691724
+status: 3
+tags: []
+user_id: triki

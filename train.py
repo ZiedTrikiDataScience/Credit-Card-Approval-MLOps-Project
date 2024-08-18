@@ -1,25 +1,25 @@
-import pandas as pd
-import numpy as np
 import math
 import os
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
-from feature_engine.encoding import CountFrequencyEncoder
-from sklearn.impute import SimpleImputer
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import FunctionTransformer
-from imblearn.over_sampling import SMOTE
-from xgboost import XGBClassifier
-from sklearn.metrics import accuracy_score, classification_report
-from sklearn.pipeline import Pipeline
-from sklearn.pipeline import make_pipeline
+import pickle
+
 import mlflow
 import mlflow.sklearn
-import pickle
+import numpy as np
+import pandas as pd
+from feature_engine.encoding import CountFrequencyEncoder
+from hyperopt import STATUS_OK, Trials, fmin, hp, tpe
+from hyperopt.pyll import scope
+from imblearn.over_sampling import SMOTE
+from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_selection import RFE
-from hyperopt import fmin, tpe, hp, STATUS_OK, Trials
-from hyperopt.pyll import scope
+from sklearn.impute import SimpleImputer
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline, make_pipeline
+from sklearn.preprocessing import (FunctionTransformer, MinMaxScaler,
+                                   OneHotEncoder)
+from xgboost import XGBClassifier
 
 ##############################################################
 ################ Local Server ################################
@@ -57,7 +57,7 @@ mlflow.set_experiment(experiment_name)
 
 
 # Read the data
-data = pd.read_excel(r"C:\Users\ZiedTriki\OneDrive - Brand Delta\Desktop\Zied DS\final_mlops_credit_default\src\Credit_Card_Approval_prediction.xlsx")
+data = pd.read_excel(r"./src/Credit_Card_Approval_prediction.xlsx")
 
 
 # Identify features and target
@@ -70,11 +70,26 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2,  strati
 
 
 
-# Initial Processing : 
+# Initial Processing Train : 
 X_train['Birthday_count'].fillna(0, inplace=True)  # Replace NaN with 0
 X_train['Age'] = np.abs(np.floor(X_train['Birthday_count'] / 365)).astype(int)
 X_train = X_train.drop(columns=['Birthday_count'], axis=1)
 X_train['Employed_days'] = np.abs(X_train['Employed_days'])
+
+# Initial Processing Test : 
+X_test['Birthday_count'].fillna(0, inplace=True)  # Replace NaN with 0
+X_test['Age'] = np.abs(np.floor(X_test['Birthday_count'] / 365)).astype(int)
+X_test = X_test.drop(columns=['Birthday_count'], axis=1)
+X_test['Employed_days'] = np.abs(X_test['Employed_days'])
+
+
+# Create the test and train dataset to be used for reference and train data creation :
+test_data = X_test.copy()
+test_data['Credit_Card_Approval'] = y_test.values
+
+train_data = X_train.copy()
+train_data['Credit_Card_Approval'] = y_train.values
+
 
 # Identify numeric and categorical columns
 numeric_features = X_train.select_dtypes(include=['int64', 'float64']).columns
@@ -125,7 +140,7 @@ rfe = rfe.fit(X_processed, y_train)
 ranking = rfe.ranking_
 selected_features = np.array(feature_names)[rfe.support_]
 
-print("Selected Features:", selected_features)
+print("\n", "\n", "Selected Features are:", selected_features , "\n","\n")
 
 
 # Evaluate the model with selected features
@@ -179,9 +194,6 @@ print("X-train shape ;" , X_train.shape)
 print("y_train shape ;" , y_train.shape)
 print("X-test shape ;" , X_test.shape)
 print("y_test shape ;" , y_test.shape)
-
-
-
 
 
 
@@ -311,3 +323,24 @@ with open(model_path, 'wb') as f:
     pickle.dump(best_model, f)
 
 print(f"Model saved to {model_path}")
+
+
+# Create the predictions column in the current dataset (train data)
+current_data_processed = preprocessor.transform(train_data.drop('Credit_Card_Approval', axis=1))
+current_data_processed = pd.DataFrame(current_data_processed, columns=feature_names)
+current_data_selected = current_data_processed[selected_features]
+current_preds = best_model.predict(current_data_selected)
+train_data["predictions"] = current_preds
+train_data.to_parquet("monitoring/reference_dataset.parquet")
+train_data.to_excel("monitoring/reference_dataset.xlsx")
+
+# Create the predictions column in the reference dataset (test data)
+reference_data_processed = preprocessor.transform(test_data.drop('Credit_Card_Approval', axis=1))
+reference_data_processed = pd.DataFrame(reference_data_processed, columns=feature_names)
+reference_data_selected = reference_data_processed[selected_features]
+reference_preds = best_model.predict(reference_data_selected)
+test_data["predictions"] = reference_preds
+test_data.to_parquet("monitoring/current_dataset.parquet")
+test_data.to_excel("monitoring/current_dataset.xlsx")
+
+print("Current and reference datasets with predictions have been saved.")

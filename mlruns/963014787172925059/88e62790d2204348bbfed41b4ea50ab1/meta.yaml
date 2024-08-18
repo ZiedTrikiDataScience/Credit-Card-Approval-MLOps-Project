@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/88e62790d2204348bbfed41b4ea50ab1/artifacts
+end_time: 1723941363705
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 88e62790d2204348bbfed41b4ea50ab1
+run_name: dapper-steed-504
+run_uuid: 88e62790d2204348bbfed41b4ea50ab1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723941363598
+status: 3
+tags: []
+user_id: triki

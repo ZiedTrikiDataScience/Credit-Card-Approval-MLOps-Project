@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/2ca89032c80b4e2493e92e416970bad0/artifacts
+end_time: 1723923539048
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 2ca89032c80b4e2493e92e416970bad0
+run_name: handsome-trout-557
+run_uuid: 2ca89032c80b4e2493e92e416970bad0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723923538963
+status: 3
+tags: []
+user_id: triki

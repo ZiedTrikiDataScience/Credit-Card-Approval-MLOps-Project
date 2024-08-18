@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/454af286ccad42fcb3fe72f5a471c0ab/artifacts
+end_time: 1723941364246
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 454af286ccad42fcb3fe72f5a471c0ab
+run_name: redolent-finch-328
+run_uuid: 454af286ccad42fcb3fe72f5a471c0ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723941364200
+status: 3
+tags: []
+user_id: triki

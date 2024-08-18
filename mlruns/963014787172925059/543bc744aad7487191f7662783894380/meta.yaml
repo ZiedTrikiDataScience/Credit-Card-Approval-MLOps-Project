@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/543bc744aad7487191f7662783894380/artifacts
+end_time: 1723076411958
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 543bc744aad7487191f7662783894380
+run_name: angry-calf-812
+run_uuid: 543bc744aad7487191f7662783894380
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723076410164
+status: 3
+tags: []
+user_id: triki

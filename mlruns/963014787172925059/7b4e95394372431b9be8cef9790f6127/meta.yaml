@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/7b4e95394372431b9be8cef9790f6127/artifacts
+end_time: 1723393930271
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 7b4e95394372431b9be8cef9790f6127
+run_name: capable-swan-737
+run_uuid: 7b4e95394372431b9be8cef9790f6127
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723393928327
+status: 3
+tags: []
+user_id: triki

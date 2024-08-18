@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/653dc65093104c01bbe50c36205e8416/artifacts
+end_time: 1723394575203
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 653dc65093104c01bbe50c36205e8416
+run_name: victorious-yak-389
+run_uuid: 653dc65093104c01bbe50c36205e8416
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723394573406
+status: 3
+tags: []
+user_id: triki

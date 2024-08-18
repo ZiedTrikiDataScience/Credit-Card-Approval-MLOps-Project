@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/595a1f066da84f6d81e86c0caf99fd76/artifacts
+end_time: 1723077181964
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 595a1f066da84f6d81e86c0caf99fd76
+run_name: fearless-koi-431
+run_uuid: 595a1f066da84f6d81e86c0caf99fd76
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723077179105
+status: 3
+tags: []
+user_id: triki

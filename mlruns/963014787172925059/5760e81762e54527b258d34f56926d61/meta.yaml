@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/5760e81762e54527b258d34f56926d61/artifacts
+end_time: 1723076855693
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 5760e81762e54527b258d34f56926d61
+run_name: delicate-tern-962
+run_uuid: 5760e81762e54527b258d34f56926d61
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723076853907
+status: 3
+tags: []
+user_id: triki

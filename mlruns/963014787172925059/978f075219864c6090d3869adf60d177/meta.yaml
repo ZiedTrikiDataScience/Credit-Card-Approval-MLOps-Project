@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/978f075219864c6090d3869adf60d177/artifacts
+end_time: 1723076082656
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 978f075219864c6090d3869adf60d177
+run_name: fearless-gull-265
+run_uuid: 978f075219864c6090d3869adf60d177
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723076082462
+status: 4
+tags: []
+user_id: triki

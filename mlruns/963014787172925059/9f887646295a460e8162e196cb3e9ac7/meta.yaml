@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/9f887646295a460e8162e196cb3e9ac7/artifacts
+end_time: 1723394569673
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 9f887646295a460e8162e196cb3e9ac7
+run_name: unruly-turtle-537
+run_uuid: 9f887646295a460e8162e196cb3e9ac7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723394567821
+status: 3
+tags: []
+user_id: triki

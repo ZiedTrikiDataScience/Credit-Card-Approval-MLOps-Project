@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/d1c8442d641a412988dc5db4f6ba2d75/artifacts
+end_time: 1723078357656
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: d1c8442d641a412988dc5db4f6ba2d75
+run_name: abrasive-midge-465
+run_uuid: d1c8442d641a412988dc5db4f6ba2d75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723078355723
+status: 3
+tags: []
+user_id: triki

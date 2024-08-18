@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/809d7c6ab3fa48f7aef0c8099137fbaa/artifacts
+end_time: 1723077553067
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 809d7c6ab3fa48f7aef0c8099137fbaa
+run_name: handsome-cub-737
+run_uuid: 809d7c6ab3fa48f7aef0c8099137fbaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723077551272
+status: 3
+tags: []
+user_id: triki

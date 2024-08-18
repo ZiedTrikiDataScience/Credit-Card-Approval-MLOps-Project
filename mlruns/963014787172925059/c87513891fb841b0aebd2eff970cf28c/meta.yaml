@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/c87513891fb841b0aebd2eff970cf28c/artifacts
+end_time: 1723393798035
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: c87513891fb841b0aebd2eff970cf28c
+run_name: bustling-conch-856
+run_uuid: c87513891fb841b0aebd2eff970cf28c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723393797809
+status: 4
+tags: []
+user_id: triki

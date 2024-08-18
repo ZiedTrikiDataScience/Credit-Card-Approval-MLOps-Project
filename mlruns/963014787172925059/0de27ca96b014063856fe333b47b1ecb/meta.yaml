@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/0de27ca96b014063856fe333b47b1ecb/artifacts
+end_time: 1723394916956
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 0de27ca96b014063856fe333b47b1ecb
+run_name: hilarious-kit-850
+run_uuid: 0de27ca96b014063856fe333b47b1ecb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723394915101
+status: 3
+tags: []
+user_id: triki

@@ -1,8 +1,9 @@
-import pandas as pd
-import numpy as np
 import pickle
-from flask import Flask, request, jsonify
+
 import mlflow
+import numpy as np
+import pandas as pd
+from flask import Flask, jsonify, request
 from mlflow import MlflowClient
 
 ################################################################
@@ -75,6 +76,7 @@ def predict():
         # Read the Excel file
         prediction_dataset = pd.read_excel(file)
         prediction_dataset = prediction_dataset.drop(columns=['Credit_Card_Approval', 'Ind_ID', 'EMAIL_ID', 'Birthday_count'], axis=1)
+        
         dataset_columns = list(prediction_dataset.columns)
         selected_features = ['Annual_income' ,'Employed_days' ,'Family_Members' ,'Housing_type','Type_Occupation']
         

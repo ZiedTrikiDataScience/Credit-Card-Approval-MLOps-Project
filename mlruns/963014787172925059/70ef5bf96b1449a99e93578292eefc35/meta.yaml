@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/70ef5bf96b1449a99e93578292eefc35/artifacts
+end_time: 1723077198417
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 70ef5bf96b1449a99e93578292eefc35
+run_name: powerful-grub-685
+run_uuid: 70ef5bf96b1449a99e93578292eefc35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723077196613
+status: 3
+tags: []
+user_id: triki

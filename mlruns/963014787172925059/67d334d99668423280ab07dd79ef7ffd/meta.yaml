@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/67d334d99668423280ab07dd79ef7ffd/artifacts
+end_time: 1723750695457
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 67d334d99668423280ab07dd79ef7ffd
+run_name: beautiful-elk-394
+run_uuid: 67d334d99668423280ab07dd79ef7ffd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723750693594
+status: 3
+tags: []
+user_id: triki

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/082eb1c38bb14217b3e13b8313173ce3/artifacts
+end_time: 1723076415495
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 082eb1c38bb14217b3e13b8313173ce3
+run_name: bright-goose-893
+run_uuid: 082eb1c38bb14217b3e13b8313173ce3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723076413710
+status: 3
+tags: []
+user_id: triki

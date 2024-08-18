@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/17cabf20553e419eb7c0fe942fe94670/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 17cabf20553e419eb7c0fe942fe94670
+run_name: capable-gnu-544
+run_uuid: 17cabf20553e419eb7c0fe942fe94670
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723077704477
+status: 1
+tags: []
+user_id: triki

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/702476b1ffc748a18a6e02375f992d83/artifacts
+end_time: 1723077196605
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: 702476b1ffc748a18a6e02375f992d83
+run_name: lyrical-mare-861
+run_uuid: 702476b1ffc748a18a6e02375f992d83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723077194768
+status: 3
+tags: []
+user_id: triki

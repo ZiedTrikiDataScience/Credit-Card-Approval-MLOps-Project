@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZiedTriki/OneDrive%20-%20Brand%20Delta/Desktop/Zied%20DS/final_mlops_credit_default/mlruns/963014787172925059/f3246eec65694c04b0438937337e91ce/artifacts
+end_time: 1723078368677
+entry_point_name: ''
+experiment_id: '963014787172925059'
+lifecycle_stage: active
+run_id: f3246eec65694c04b0438937337e91ce
+run_name: funny-dolphin-497
+run_uuid: f3246eec65694c04b0438937337e91ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1723078366792
+status: 3
+tags: []
+user_id: triki
