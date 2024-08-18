@@ -9,32 +9,12 @@ repos:
     -   id: check-yaml
     -   id: check-added-large-files
 
-# Python linting with pylint
--   repo: https://github.com/pre-commit/mirrors-pylint
-    rev: v3.0.0a5  # You can check the latest release of pylint
-    hooks:
-    -   id: pylint
-        name: Pylint checks
 
-# Python code formatter (black)
--   repo: https://github.com/psf/black
-    rev: 23.1.0
-    hooks:
-    -   id: black
-        language_version: python3  # Specify Python version
-
-
-# Sort Python imports with isort
--   repo: https://github.com/pre-commit/mirrors-isort
-    rev: v5.10.1
-    hooks:
-    -   id: isort
-        name: Sort imports with isort
-
-
-# Python security checks with bandit
--   repo: https://github.com/PyCQA/bandit
-    rev: 1.7.0
-    hooks:
-    -   id: bandit
-        name: Security checks
+- repo: local
+  hooks:
+      - id: pytest-check
+        name: pytest-check
+        entry: pytest
+        language: system
+        pass_filenames: false
+        always_run: true
