@@ -123,3 +123,72 @@ docker build -t credit-card-approval-prediction:v1 .
 ```bash
 docker run -it --rm -p 5001:5001 credit-card-approval-prediction:v1
 ```
+#### Run the prediction scoring script to classify new data :
+```bash
+python prediction_scoring.py
+```
+> prediction_results.xlsx file will be generated holding the data along with the scored columns
+
+
+### 4. Monitor the performance of the model and retrain in case of threshold passed :
+
+#### Run docker-compose to start the postgresql database , adminer to manage it and grafana to see the monitoring dashboard :
+```bash
+docker-compose up --build
+```
+
+#### Run the evidently_monitoring_and_retraining.py 
+```bash
+python monitoring\evidently_metrics_calculations.py
+```
+-> The script Does the following :
+* Prepares the database to be fed with the monitoring metrics
+* Caluclates the metrics with evidently_AI and inserts those in the database
+* Checks peridocially if the models exeeced a certain threshold. If that would be the case , a prefect orchestrated retrain_model flow will be triggered. If not, we continue the monitoring 
+
+
+#### Access grafana to see the monitoring dashaboard :
+
+```bash
+http://localhost:3000/
+```
+
+```bash
+Go to Dahsboards >>> Credit Card Approval MLOps Dashboard
+```
+
+
+### 5. Apply Best Engineering Practises :
+
+#### Unit and Integration Tests are created in the tests folder with pytest and to run them :
+
+```bash
+pytest .
+```
+
+#### Pre-Commit hooks are generated and on each commit to the repo after doing a change, testing will be done automatically  :
+
+* See .pre-commit-config.yaml
+
+#### Linter , Code Formatter and import Organiser are all used as part of the CI/CD pipelines with pylint , black and isort :
+
+* See the ci.yml file (Step 2 and Step 3 in the pipeline)
+
+#### CI/CD Pipeline :
+
+* CI Pipeline is created and does the following on each push or merge to/with the main branch :
+  * Step 1: Setup Python environment, install dependencies, and run tests
+  * Step 2: Format code using black and isort
+  * Step 3: Linting using pylint to ensure code follows standards
+  * Step 4: Validate Dockerfile syntax
+  * Step 5: Build Docker image to ensure no build issues
+
+
+* CD Pipeline is created and does the following :
+  * Step 1: Build Docker image and push to Docker Hub
+  * Step 2: Pull Docker image locally and run it
+ 
+
+
+
+
