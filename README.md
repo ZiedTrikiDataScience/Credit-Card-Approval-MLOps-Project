@@ -65,6 +65,61 @@ After joining the two raw files (see raw folder) , the composition of the datase
 
 ## Pipeline Description :
 
-### 1. Clone the git repo to have all the files :
+### Prerequisites :
+
+* Install Python 3.12.4
+
+* Create a Virtual environment and activate it
+
+* Install the requirements.txt :
 ```bash
-git clone 
+pip install -r requirements.txt
+```
+
+### 1. Cloning the git repo to have all the files :
+```bash
+git clone https://github.com/ZiedTrikiDataScience/Credit-Card-Approval-MLOps-Project.git
+```
+
+### 2. Train and log parameters and artifacts (model,preprocessor) with mlflow :
+
+#### Make sure you are in the main directory :
+
+```bash
+cd your_user_path/Credit Card Approval MLOps Project 
+```
+
+#### Open a terminal and run the following to start the mlflow tracking server :
+
+```bash
+mlflow ui
+```
+
+#### Open a new terminal and run the following to train the model, log metrics and params to mlflow and create reference dataset for monitoring :
+
+```bash
+python train.py
+```
+
+Note that I registered the best model in terms of test accuracy to the model registry manually from the UI which will be called afterwards with :
+
+```bash
+run_id = "963014787172925059/cea202bfa8964234975e8cd70b7a4ecf"
+model = mlflow.pyfunc.load_model(f'./mlruns/{run_id}/artifacts/model'
+```
+
+### 3. Deploy with Docker and Flask :
+
+#### Make sure that started Docker Desktop and thatthe Docker Engine is running
+
+#### Create the docker image :
+
+```bash
+docker build -t credit-card-approval-prediction:v1 .
+```
+
+
+#### Create a docker container on top of it and run it :
+```bash
+docker run -it --rm -p 5001:5001 credit-card-approval-prediction:v1
+```
