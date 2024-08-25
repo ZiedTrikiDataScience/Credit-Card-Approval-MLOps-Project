@@ -110,7 +110,7 @@ model = mlflow.pyfunc.load_model(f'./mlruns/{run_id}/artifacts/model'
 
 ### 3. Deploy with Docker and Flask :
 
-#### Make sure that started Docker Desktop and thatthe Docker Engine is running
+#### Make sure that you started Docker Desktop and that the Docker Engine is running
 
 #### Create the docker image :
 
